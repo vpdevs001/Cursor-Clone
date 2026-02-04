@@ -1,0 +1,8 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="shrink-0 select-none">
+  <!-- Arrow -->
+  <path d="M12 3V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Line -->
+  <path d="M5 20H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+</svg>

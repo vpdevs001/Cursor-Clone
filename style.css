@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: rgb(237, 236, 236);
   font-family:
     system-ui,
     -apple-system,
@@ -30,11 +30,13 @@ button {
 
 /* Navbar Styles */
 
-header {
+.main-header {
   width: 100%;
   padding: 0 20px;
   position: sticky;
   top: 0;
+  z-index: 999;
+  background-color: rgb(20, 18, 11);
 }
 
 .navbar {
@@ -82,7 +84,6 @@ header {
   box-shadow: 0 0 1px #cfcfcf;
   background-color: rgb(20, 18, 11);
   border-radius: 20px;
-  color: #fff;
 }
 
 .nav-buttons .white-btn {
@@ -90,4 +91,61 @@ header {
   background-color: rgb(237, 236, 236);
   border-radius: 30px;
   color: rgb(0, 0, 0);
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 112px 20px 67.2px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 40%;
+}
+
+.hero-header h1 {
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 400;
+}
+
+.hero-header button {
+  padding: 15px 30px;
+  background-color: rgb(237, 236, 236);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 1em;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.hero-header span {
+  color: rgb(20, 18, 11);
+}
+
+.hero-header img {
+  width: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
 }
