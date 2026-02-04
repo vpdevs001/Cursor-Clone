@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(20, 18, 11);
   color: #fff;
   font-family:
     system-ui,
@@ -20,9 +19,75 @@
     sans-serif;
 }
 
+body {
+  background-color: rgb(20, 18, 11);
+}
+
 button {
   cursor: pointer;
   border: none;
 }
 
 /* Navbar Styles */
+
+header {
+  width: 100%;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+}
+
+.nav-logo img {
+  width: 95px;
+  filter: invert(1);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.nav-list li {
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-buttons button {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.nav-buttons .black-btn {
+  padding: 5px 10px;
+  box-shadow: 0 0 1px #cfcfcf;
+  background-color: rgb(20, 18, 11);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.nav-buttons .white-btn {
+  padding: 0 14px;
+  background-color: rgb(237, 236, 236);
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+}
