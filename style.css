@@ -191,3 +191,80 @@ button {
 .logo-container img {
   height: 40px;
 }
+
+/* Features Section Styles */
+
+.features-section {
+  padding: 67.2px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.features-section section {
+  margin: 0 58px 89.6px 58px;
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 25, 19);
+  border-radius: 5px;
+  padding: 1rem 0.6rem;
+  gap: 3rem;
+}
+
+.feature-text {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.big-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.feature-gray-text {
+  color: #edecec99;
+}
+
+.small-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #f54e00;
+}
+
+.small-text img {
+  width: 20px;
+}
+
+.feature-fig {
+  width: 65%;
+}
+
+.feature-img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.second-feature {
+  flex-direction: row-reverse;
+}
