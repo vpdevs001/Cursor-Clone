@@ -19,6 +19,10 @@
     sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(20, 18, 11);
 }
@@ -49,8 +53,8 @@ button {
 }
 
 .nav-logo img {
-  width: 95px;
-  filter: invert(1);
+  width: 6rem;
+  filter: invert(94%);
 }
 
 .nav-list {
@@ -73,21 +77,25 @@ button {
   gap: 0.5rem;
 }
 
-.nav-buttons button {
+.nav-buttons a {
   font-size: 14px;
   line-height: 1.5em;
   font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-buttons .black-btn {
-  padding: 5px 10px;
-  box-shadow: 0 0 1px #cfcfcf;
+.nav-buttons .black-a {
+  padding: 3px 9px;
+  box-shadow: 0 0 0.6px rgb(237, 236, 236);
   background-color: rgb(20, 18, 11);
   border-radius: 20px;
 }
 
-.nav-buttons .white-btn {
-  padding: 0 14px;
+.nav-buttons .white-a {
+  padding: 0 12px;
   background-color: rgb(237, 236, 236);
   border-radius: 30px;
   color: rgb(0, 0, 0);
@@ -97,11 +105,12 @@ button {
 
 .hero-section {
   max-width: 1300px;
-  padding: 0 20px;
   margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  padding: 112px 20px 67.2px 20px;
+  padding: 112px 0 67.2px 0;
+}
+
+.hero-section section {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -115,7 +124,7 @@ button {
   align-items: flex-start;
   flex-direction: column;
   gap: 2em;
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .hero-header h1 {
@@ -125,7 +134,7 @@ button {
 }
 
 .hero-header button {
-  padding: 15px 30px;
+  padding: 12px 20px;
   background-color: rgb(237, 236, 236);
   border-radius: 30px;
   font-size: 16px;
