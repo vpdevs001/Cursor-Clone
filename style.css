@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-/* Basic Styles */
+/* Basic Styles & Utility Classes */
 
 * {
   margin: 0;
@@ -56,16 +56,22 @@ img {
   font-weight: 400;
 }
 
-.heading {
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 33px
-}
-
 .normal-text {
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 400;
+}
+
+.semiLarge-text {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px
 }
 
 /* Navbar Styles */
@@ -245,9 +251,6 @@ img {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  font-size: 22px;
-  line-height: 29px;
-  font-weight: 400;
 }
 
 .feature-fig {
@@ -417,4 +420,40 @@ img {
   padding: 1px 9px;
   box-shadow: 0 0 2px rgb(237, 236, 236);
   border-radius: 15px;
+}
+
+/* About Section Styles */
+
+.about-section {
+  padding: 67.2px 0;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.about {
+  background-color: rgb(27, 25, 19);
+  padding: 1rem 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.about-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+}
+
+.about-fig {
+  width: 65%;
+}
+
+.about-img {
+  width: 100%;
 }
