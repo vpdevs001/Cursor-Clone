@@ -70,13 +70,17 @@ img {
 }
 
 .download-btn {
-  padding: 12px 20px;
+  padding: 11px 22px;
   background-color: rgb(237, 236, 236);
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: rgb(20, 18, 11);
+  font-weight: 400;
 }
 
 /* Navbar Styles */
@@ -458,7 +462,7 @@ img {
 .recent-highlights-section {
   width: 100%;
   background-color: rgb(27, 25, 19);
-  margin: 10rem 0;
+  margin-top: 10rem;
 }
 
 .recent-highlights-container {
@@ -501,4 +505,31 @@ img {
   width: 42vw;
   padding: 0.8rem 3.5rem 0.8rem 0.8rem;
   gap: 2rem;
+}
+
+/* CTA Section Styles */
+
+.CTA-section {
+  padding: 134.4px 0;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.CTA-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 100%;
+}
+
+.big-heading {
+  font-size: 72px;
+  line-height: 79px;
+  font-weight: 400;
+}
+
+.CTA-container img {
+  width: 20px;
 }
