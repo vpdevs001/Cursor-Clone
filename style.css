@@ -36,7 +36,7 @@ button {
 }
 
 img {
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .gray-text {
@@ -45,6 +45,24 @@ img {
 
 .orange-text {
   color: #f54e00;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.sm-text {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px
+}
+
+.normal-text {
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 400;
@@ -82,9 +100,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 2.3em;
-  font-size: 14px;
-  line-height: 1.5em;
-  font-weight: 400;
 }
 
 .nav-buttons {
@@ -93,9 +108,6 @@ img {
 }
 
 .nav-buttons a {
-  font-size: 14px;
-  line-height: 1.5em;
-  font-weight: 400;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -142,19 +154,10 @@ img {
   max-width: 45%;
 }
 
-.hero-header h1 {
-  font-size: 26px;
-  line-height: 33px;
-  font-weight: 400;
-}
-
 .hero-header button {
   padding: 12px 20px;
   background-color: rgb(237, 236, 236);
   border-radius: 30px;
-  font-size: 16px;
-  line-height: 1em;
-  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,9 +187,6 @@ img {
 
 .trusted-by-text {
   margin-bottom: 22.4px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5em;
 }
 
 .logo-container {
@@ -305,18 +305,9 @@ img {
   height: 240.2px;
 }
 
-.testimonial-text {
-  font-size: 16px;
-  line-height: 1.5em;
-  font-weight: 400;
-}
-
 .testimonial-fig {
   display: flex;
   gap: 5px;
-  font-size: 14px;
-  line-height: 1.5em;
-  font-weight: 400;
 }
 
 .testimonial-img {
@@ -325,4 +316,58 @@ img {
 
 .role {
   color: #edecec99;
+}
+
+/* Card Features Section Styles */
+
+.features-card-section {
+  padding: 67.2px 0;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.features-card-header {
+  width: 100%;
+  text-align: left;
+}
+
+.features-card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.feature-card {
+  background-color: rgb(27, 25, 19);
+  padding: 12px 18px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-fig {
+  width: 100%;
+}
+
+.card-img{
+  width: 100%;
 }
