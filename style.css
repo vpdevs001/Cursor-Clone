@@ -17,17 +17,37 @@
   font-family: "CursorGothic", system-ui;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   background-color: rgb(20, 18, 11);
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
   cursor: pointer;
   border: none;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.gray-text {
+  color: #edecec99;
+}
+
+.orange-text {
+  color: #f54e00;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 400;
 }
 
 /* Navbar Styles */
@@ -39,6 +59,7 @@ button {
   top: 0;
   z-index: 999;
   background-color: rgb(20, 18, 11);
+  padding: 0.8rem 0;
 }
 
 .navbar {
@@ -47,27 +68,23 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.8rem 0;
 }
 
 .nav-logo img {
   width: 6rem;
-  filter: invert(94%);
+  filter: invert(95%);
+  cursor: pointer;
+  margin-right: 4rem;
 }
 
 .nav-list {
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 2.3em;
   font-size: 14px;
   line-height: 1.5em;
   font-weight: 400;
-}
-
-.nav-list li {
-  cursor: pointer;
 }
 
 .nav-buttons {
@@ -121,7 +138,7 @@ button {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5em;
   max-width: 45%;
 }
 
@@ -141,7 +158,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 5px;
 }
 
 .hero-header span {
@@ -154,7 +171,6 @@ button {
 
 .hero-image img {
   width: 100%;
-  border-radius: 10px;
 }
 
 /* Trusted By Section */
@@ -220,6 +236,7 @@ button {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  cursor: pointer;
   gap: 1em;
 }
 
@@ -233,34 +250,12 @@ button {
   font-weight: 400;
 }
 
-.feature-gray-text {
-  color: #edecec99;
-}
-
-.small-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2px;
-  font-size: 16px;
-  line-height: 1.5em;
-  font-weight: 400;
-  color: #f54e00;
-}
-
-.small-text img {
-  width: 20px;
-}
-
 .feature-fig {
   width: 65%;
 }
 
 .feature-img {
   width: 100%;
-  border-radius: 5px;
-  object-fit: contain;
-  object-position: center;
 }
 
 .second-feature {
@@ -326,7 +321,6 @@ button {
 
 .testimonial-img {
   width: 2.5rem;
-  border-radius: 5px;
 }
 
 .role {
